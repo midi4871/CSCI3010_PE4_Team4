@@ -1,1 +1,88 @@
 Game output:
+(base) Bruces-MacBook-Pro-2:CSCI3010_PE4_Team4 brucevalentine$ g++ -std=c++17 TicTacToe.cpp
+(base) Bruces-MacBook-Pro-2:CSCI3010_PE4_Team4 brucevalentine$ ./a.out
+___
+___
+___
+player one make choice (x)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+1
+x__
+___
+___
+player two make choice (o)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+4
+x__
+o__
+___
+player one make choice (x)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+5
+x__
+ox_
+___
+player two make choice (o)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+9
+x__
+ox_
+__o
+player one make choice (x)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+8
+x__
+ox_
+_xo
+player two make choice (o)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+2
+xo_
+ox_
+_xo
+player one make choice (x)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+7
+xo_
+ox_
+xxo
+player two make choice (o)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+3
+xo_
+ox_
+xxo
+player one make choice (x)
+Enter a position to place your marker. Positions are marked as such: 
+1 2 3
+4 5 6
+7 8 9
+6
+xox
+oxx
+xxo
+(base) Bruces-MacBook-Pro-2:CSCI3010_PE4_Team4 brucevalentine$ 
