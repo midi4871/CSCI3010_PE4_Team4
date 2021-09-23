@@ -89,12 +89,29 @@ void displayBoard(std::vector<std::vector<int> > board){
 }
 
 int main(){
+  int turnCount = 0;
+  int player = 1;
   //creating the board and storing it in a local variable
   std::vector<std::vector<int> > board = createBoard();
 
   //displaying the board
   displayBoard(board);
-
+  //loop for turns 
+  while (turnCount <9){
+    if(turnCount % 2 == 0){
+  std::cout<<"player one make choice (x)"<<std::endl;
+  player = 1;
+}else{
+  std::cout<<"player two make choice (o)"<<std::endl;
+      //this keeps track of what the player is an x or o
+  player = 2;
+}
+    //incriment turn 
+  turnCount++;
   //receiving and storing the player choice
   int choice1 = getPlayerChoice();
+    //change board and then display 
+  board = placeMarker(board,choice1,player);
+  displayBoard(board);
+}
 }
